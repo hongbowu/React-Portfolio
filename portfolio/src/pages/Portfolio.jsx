@@ -13,7 +13,6 @@ export default function Portfolio() {
             <p>ExpressJs</p>
             <p>Mysql</p>
             <p>MongoDb</p>
-            <p></p>
         </div>
     )
 }
