@@ -1,0 +1,20 @@
+* {
+    background: #e6f7ff;
+}
+
+.header {
+    background: #001f3f;
+    height: 200px;
+    
+}
+
+.nav {
+    background: #001f3f;
+    float:right;
+}
+
+a {
+    background: #001f3f;
+    padding-left: 50px;
+    color: #f1f1f1;
+}
