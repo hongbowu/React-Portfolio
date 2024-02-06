@@ -2,7 +2,7 @@ import '../App.css'
 export default function Nav() {
 
     return(
-        <header className="header" >
+        <div className="header" >
             <h1 >
                 Hongbo
             </h1>
@@ -13,7 +13,7 @@ export default function Nav() {
             <a>Contact</a>
             <a>Resume</a>
             </nav>
-        </header>
+        </div>
        
     )
     

@@ -2,7 +2,7 @@
     background: #e6f7ff;
 }
 
-.header {
+header {
     background: #001f3f;
     height: 200px;
     
@@ -17,4 +17,8 @@ a {
     background: #001f3f;
     padding-left: 50px;
     color: #f1f1f1;
+}
+
+footer {
+    margin-bottom: 0px;
 }

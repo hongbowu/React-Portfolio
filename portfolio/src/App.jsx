@@ -6,7 +6,10 @@ function App() {
 
   return (
     <>
+    <header>
       <Nav />
+    </header>
+      
       <Footer />
     </>
   )
