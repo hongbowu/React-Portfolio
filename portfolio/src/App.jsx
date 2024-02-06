@@ -11,7 +11,10 @@ function App() {
       <Nav />
     </header>
       <Outlet />
+    <footer>
       <Footer />
+    </footer>
+      
     </>
   )
 }

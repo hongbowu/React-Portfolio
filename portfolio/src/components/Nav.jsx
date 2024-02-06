@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function Nav() {
     const currentPage = useLocation().pathname;
     return(
-        <ul>
+        <ul className="nav nav-tabs">
             <li className="nav-item">
               <Link
                 to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>

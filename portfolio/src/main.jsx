@@ -6,6 +6,7 @@ import About from './pages/About.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
+import Error from './pages/Error.jsx';
 
 import './App.css'
 
@@ -36,5 +37,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <App />
+  <RouterProvider router={router} />
 )
