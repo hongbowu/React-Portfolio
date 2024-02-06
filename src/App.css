@@ -1,0 +1,34 @@
+* {
+    background: #e6f7ff;
+}
+
+header {
+    background: #001f3f;
+    height: 150px;
+}
+
+.nav {
+    background: #001f3f;
+    float: right;
+    color: white !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #bbb9b9;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
