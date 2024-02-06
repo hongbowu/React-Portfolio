@@ -9,6 +9,19 @@ export default function About() {
                 I aspire to secure a job 
                 in front-end web development in the future.
             </p>
+            <h2>Skills</h2>
+            <h3>Front-end</h3>
+            <p>HTML5</p>
+            <p>CSS</p>
+            <p>JAVASCRIPT</p>
+            <p>Jquery</p>
+            <p>Bootstrap</p>
+            <p>React</p>
+            <h3>Back-end</h3>
+            <p>NodeJs</p>
+            <p>ExpressJs</p>
+            <p>Mysql</p>
+            <p>MongoDb</p>
         </div>
     )
 }
