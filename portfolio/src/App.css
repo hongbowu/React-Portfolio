@@ -26,3 +26,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
