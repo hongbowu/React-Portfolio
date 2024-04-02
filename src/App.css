@@ -2,18 +2,18 @@
     background: #e6f7ff;
 }
 
-header {
-    background: aqua;
-    height: 150px;
-}
-h1 {
-  text-align: left;
-
+header h1 {
+  float: left;
+  margin-right: 10px;
 }
 
-.nav {
-    float: right;
-    color: white !important;
+header ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  clear: right;
 }
 
 footer {

@@ -3,35 +3,36 @@ import { Link, useLocation } from 'react-router-dom';
 export default function Nav() {
     const currentPage = useLocation().pathname;
     return(
-        <ul className="nav nav-tabs">
-            <h1 className='username'>Hongbo Wu</h1><br/>
-            <h2>Resume</h2>
-            <li className="nav-item">
+        <>
+        <h1 className='username'>Hongbo Wu</h1>
+        <h2>Resume</h2>
+        <ul>
+            <li>
               <Link
-                to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+                to='/' >
                     About Me
                 </Link>
             </li>
-            <li className="nav-item">
+            <li>
             <Link
-                to='/Portfolio' className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
+                to='/Portfolio' >
                     Portfolio
                 </Link>
             </li>
-            <li className="nav-item">
+            <li>
             <Link
-                to='/Contact' className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
+                to='/Contact' >
                     Contact
                 </Link>
             </li>
-            <li className="nav-item">
+            <li>
             <Link
-                to='/Resume' className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
+                to='/Resume' >
                     Resume
                 </Link>
             </li>
         </ul>
-       
+        </>
     )
     
     
