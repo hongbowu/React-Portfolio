@@ -7,15 +7,12 @@ function App() {
   return (
     <>
     <header>
-      <h1>Hongbo</h1>
       <Nav />
     </header>
     <main className="mx-3">
       <Outlet />
     </main>
-    <footer>
       <Footer />
-    </footer>  
     </>
   )
 }
