@@ -1,5 +1,6 @@
 * {
-    background: #e6f7ff;
+  background: rgb(26,249,25);
+  background: linear-gradient(90deg, rgba(26,249,25,0.5886729691876751) 0%, rgba(90,255,85,0.6951155462184874) 30%, rgba(159,255,150,1) 100%);
 }
 
 header h1 {
@@ -16,27 +17,37 @@ header ul {
   clear: right;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  }
+}
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .logo {
-    width: 50px; 
-    height: 50px; 
-    transition: opacity 0.3s; 
-    border-radius: 15px;
-  }
+  width: 50px;
+  height: 50px;
+  transition: opacity 0.3s;
+  border-radius: 15px;
+}
 
 .logo:hover {
-    width: 60px; 
-    height: 60px; 
-    cursor: pointer;
-  }
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+li.active {
+  color: red;
+  font-weight: bold;
+  font-size: 120%;
+}

@@ -7,26 +7,26 @@ export default function Nav() {
         <h1 className='username'>Hongbo Wu</h1>
         <h2>Resume</h2>
         <ul>
-            <li>
-              <Link
+            <li className={currentPage === '/' ? 'active' : ''}>
+              <Link className='no-underline'
                 to='/' >
                     About Me
                 </Link>
             </li>
-            <li>
-            <Link
+            <li className={currentPage === '/Portfolio' ? 'active' : ''}>
+            <Link className='no-underline'
                 to='/Portfolio' >
                     Portfolio
                 </Link>
             </li>
-            <li>
-            <Link
+            <li className={currentPage === '/Contact' ? 'active' : ''}>
+            <Link className='no-underline'
                 to='/Contact' >
                     Contact
                 </Link>
             </li>
-            <li>
-            <Link
+            <li className={currentPage === '/Resume' ? 'active' : ''}>
+            <Link className='no-underline'
                 to='/Resume' >
                     Resume
                 </Link>
