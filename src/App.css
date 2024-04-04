@@ -1,8 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  background: rgb(9,231,229);
-background: linear-gradient(90deg, rgba(9,231,229,0.5886729691876751) 0%, rgba(97,255,246,0.6951155462184874) 30%, rgba(199,250,248,1) 100%);
+  font-weight: bolder;
+}
+body {
+  background: url("../public/image/background.jpg") no-repeat;
 }
 
 header ul {
@@ -16,6 +18,21 @@ header ul {
 
 .no-underline {
   text-decoration: none;
+}
+
+.portfolioCard {
+  background-size: 400px 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 35vh;
+  width: 25%;
+  margin: 5px;
+  position: relative;
+  opacity: 0.75;
+}
+
+.pLink {
+  margin: 5px;
 }
 
 footer {
@@ -35,6 +52,7 @@ form {
   height: 50px;
   transition: opacity 0.3s;
   border-radius: 15px;
+  opacity: 1;
 }
 
 .logo:hover {
